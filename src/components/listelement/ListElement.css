@@ -25,8 +25,6 @@
 	display: inline-block;
 	margin: 1rem 0;
 }
-
-p {
-	font-size: 0.95rem;
-	margin: 0.5rem 0;
+.ListElement h4 {
+	font-size: 1.9rem;
 }

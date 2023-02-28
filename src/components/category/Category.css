@@ -3,9 +3,6 @@
 	background-color: var(--primary);
 }
 
-a {
-	text-decoration: none;
-}
 h2 {
 	color: white;
 	font-size: 1.9rem;
@@ -15,4 +12,8 @@ h2 {
 
 .Category img {
 	width: 100%;
+}
+
+.Category h4 {
+	margin-top: 0.5rem;
 }

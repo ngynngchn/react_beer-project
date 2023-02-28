@@ -27,6 +27,7 @@ body {
 
 h5 {
 	color: var(--primary);
+	font-variation-settings: "wght" 900;
 	font-size: 1.1rem;
 }
 
@@ -34,11 +35,21 @@ h4 {
 	color: var(--font-color);
 	font-size: 1.1rem;
 }
+.DetailsPage {
+	margin-bottom: 100px;
+}
 
-p {
+h2,
+h3 {
+	font-variation-settings: "wght" 700;
+}
+
+h4,
+p,
+span {
 	font-variation-settings: "wght" 500;
 }
 
-.DetailsPage {
-	margin-bottom: 100px;
+a {
+	text-decoration: none;
 }
