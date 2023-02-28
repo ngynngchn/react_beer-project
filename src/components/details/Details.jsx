@@ -13,7 +13,7 @@ import { useNavigate } from "react-router-dom";
 const Details = (props) => {
 	const navigate = useNavigate();
 	let creator = props.contributed_by
-		? props.contributed_by.replace(/<[^>]+>/g, "")
+		? props.contributed_by.split("<")[0]
 		: null;
 	return (
 		<section className="Details">

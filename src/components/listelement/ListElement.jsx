@@ -9,7 +9,7 @@ const ListElement = ({ image_url, name, tagline, contributed_by, _id }) => {
 			<article>
 				<h4>{name}</h4>
 				<h5>{tagline}</h5>
-				<p>Created by {contributed_by.replace(/<[^>]+>/g, "")}</p>
+				<p>Created by {contributed_by.split("<")[0]}</p>
 				<Link to={`/listpage/${_id}`}>Details</Link>
 			</article>
 		</section>

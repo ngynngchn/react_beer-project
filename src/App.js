@@ -16,7 +16,6 @@ function App() {
 				<Routes>
 					<Route path="/" element={<LandingPage />}></Route>
 					<Route path="/listpage" element={<ListPage />}></Route>
-					<Route path="/:random" element={<DetailPage />}></Route>
 					<Route path="/listpage/:beerID" element={<DetailPage />}></Route>
 				</Routes>
 			</BrowserRouter>
