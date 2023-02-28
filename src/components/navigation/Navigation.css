@@ -1,0 +1,10 @@
+nav {
+	background-color: var(--primary);
+	padding: 1vh;
+	display: grid;
+	place-content: center;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}

@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+	font-family: "Roboto Slab";
+	src: url(./fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+	font-family: Roboto Slab;
+	--primary: #ffca41;
+	--font-color: #333333;
+	--border-color: #33333375;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.LandingPage {
+	height: 100vh;
+	position: relative;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	justify-items: start;
+	padding: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+h5 {
+	color: var(--primary);
+	font-size: 1.1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4 {
+	color: var(--font-color);
+	font-size: 1.1rem;
+}
+
+p {
+	font-variation-settings: "wght" 500;
+}
+
+.DetailsPage {
+	margin-bottom: 100px;
 }

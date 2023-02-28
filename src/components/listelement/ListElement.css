@@ -1,0 +1,32 @@
+.ListElement {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: calc(80vh / 3);
+	gap: 2rem;
+	padding-block: 0rem 1rem;
+	border-bottom: 2px solid var(--border-color);
+	align-items: center;
+}
+
+.ListElement:not(.ListElement:first-of-type) {
+	padding: 1rem 0;
+}
+
+.ListElement img {
+	width: 90%;
+	height: 90%;
+	object-fit: contain;
+}
+.ListElement a {
+	color: white;
+	background-color: var(--primary);
+	border-radius: 40px;
+	padding: 0.1rem 1rem;
+	display: inline-block;
+	margin: 1rem 0;
+}
+
+p {
+	font-size: 0.95rem;
+	margin: 0.5rem 0;
+}
